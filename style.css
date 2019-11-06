@@ -1,0 +1,167 @@
+/*style sheet for Kitties to Go! */
+
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 20rem;
+  border-width: 10px;
+  border-style: solid;
+  border-color: teal;
+  background-color: teal;
+  padding: 2rem;
+  position: static;
+    }
+
+    .top-right{
+      float: right;
+    }
+
+
+    #nav-row {
+      display: inline;
+    }
+
+    #ul-row li {
+      display: inline;
+    }
+
+
+
+
+div {
+  font-family: "arial", sans-serif;
+  width: 500px;
+  padding: 1rem;
+  float: right;
+
+}
+
+
+h1 {
+  color: yellow;
+  font-family: "arial", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: yellow;
+  font-family: "arial", sans-serif;
+  }
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+main {
+  max-width: 600px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  postion: relative;
+  float: left;
+}
+
+
+aside {
+  max-width: 300px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: green;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+}
+
+
+
+section {
+  padding: 1rem;
+  float: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+
+
+
+h3 {
+  font-family: "Lucinda Console", monospace;
+  color: teal;
+  font-weight: bold;
+}
+
+p {
+  font-family: "arial", sans-serif;
+  font-size: small;
+}
+
+blockquote {
+  font-size: 20px;
+  color: teal;
+}
+
+
+
+
+
+.footerposition {
+    float: right;
+  }
+
+.logo-position {
+  float: left;
+}
+
+
+footer {
+  height: 20rem;
+  background-color: grey;
+  padding: 1rem;
+  clear: right;
+
+  }
+
+.low-nav {
+  border-right-style: solid;
+  border-right-color: white;
+  padding: .2rem;
+}
+
+nav {
+  font-family: "arial", sans-serif;
+  color: black;
+}
+
+
+figcaption {
+  font-family: "arial", sans-serif;
+}
+
+#footerrow {
+  display: inline;
+}
+
+#footernav li {
+  display: inline;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+}
+
+.footertext {
+  color: white;
+  font-family: "arial", sans-serif;
+  clear: right;
+
+      }
