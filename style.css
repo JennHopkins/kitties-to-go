@@ -7,10 +7,9 @@
 
 header {
   height: 20rem;
-  border-width: 10px;
+  border-width: 0;
   border-style: solid;
-  border-color: teal;
-  background-color: teal;
+  background-color: #004D2E;
   padding: 2rem;
   position: static;
     }
@@ -27,8 +26,6 @@ header {
     #ul-row li {
       display: inline;
     }
-
-
 
 
 div {
@@ -102,6 +99,7 @@ h3 {
 p {
   font-family: "arial", sans-serif;
   font-size: small;
+  letter-spacing: 1px;
 }
 
 blockquote {
